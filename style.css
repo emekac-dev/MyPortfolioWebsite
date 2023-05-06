@@ -1,0 +1,116 @@
+/*CSS*/
+
+/* Style for html elements */
+html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+/* Style controlling main element */
+ main {
+  width: 100%;
+  height: 100%;
+  background-color: #c4f2c4;
+  padding: 10px;
+
+  /* Style using flex */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+/* Style for navigation element */
+nav{
+padding-left: 40%;
+}
+
+/* Style to remove underline from links */
+a:link{
+text-decoration-line:none;
+}
+
+
+/* Style for header element*/
+header{
+  background-image: url('../images/photo-bg.jpg');
+  text-align: center;
+}
+
+/* Style for the logo photo */
+.logo{
+  border-radius: 50%;
+  width:20%
+}
+
+/* Style for class selectors for section */
+.item {
+  background-color: #f5bc51;
+  flex-basis: 80%;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+/* Style for class selectors for section */
+.item2 {
+  background-color: orange;
+  flex-basis: 80%;
+  padding : 50px;
+  margin-bottom: 50px;
+}
+
+/* Style for footer */
+footer{
+  text-align: center;
+  padding : 10px;
+}
+
+/* Style for heading 2 */
+h2{
+  text-align: center;
+  padding : 10px
+}
+
+/* Style for nav list*/
+ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+li{
+  margin:  7px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
